@@ -8,8 +8,7 @@ import { Animal } from './animal.model'
     <h1>Animal Info Tracker</h1>
     <animal-list [childAnimalList]="masterAnimalList" (clickSender)="editAnimal($event)"></animal-list>
     <hr>
-    <edit-animal [childSelectedKeAnimal]="selectedAnimal" (doneButtonClickedSender)="finishedEditing()"></edit-animal>
-    <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
+
   </div>
   `
 })
