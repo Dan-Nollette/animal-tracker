@@ -22,7 +22,7 @@ import { Animal } from './animal.model'
         <li>Likes: {{currentAnimal.likes}}</li>
         <li>Dislikes: {{currentAnimal.dislikes}}</li>
       </ul>
-      <button (click)="editAnimal(currentAnimal)">Edit Animal</button>
+      <button class="btn" (click)="editAnimal(currentAnimal)">Edit Animal</button>
       <br><br>
     </li>
   </ul>
